@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  padding: 15px;
+  color: #292929;
+  font-size: 17px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+header h1 {
+  color: #155b8f;
+  font-size: 34px;
+  margin: 0 0 20px;
+  font-weight: bold;
+}
+
+header p {
+  color: #155b8f;
+  font-size: 18px;
+  margin: 0;
+}
+
+h2 {
+  color: #155b8f;
+  font-size: 28px;
+  margin: 18px 0;
+}
+
+section p {
+  line-height: 1.25;
+  margin: 0 0 18px;
+}
+
+.blue-bar {
+  background-color: #155b8f;
+  color: #222;
+  font-size: 22px;
+  padding: 1px 0;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+section ul {
+  margin-top: 0;
+  padding-left: 40px;
+}
+
+section ul li {
+  margin: 2px 0;
+}
+
+section ul li a {
+  color: #0000ee;
+  text-decoration: underline;
+}
+
+.table-title {
+  text-align: center;
+  margin: 20px 0 16px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #888;
+}
+
+th,
+td {
+  border: 1px solid #999;
+  padding: 4px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+th {
+  background-color: #155b8f;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+td ul {
+  margin: 0;
+  padding-left: 30px;
+}
+
+td ul li {
+  margin: 0;
+}
+
+tfoot td {
+  padding: 2px;
+}
+
+.logo {
+  width: 90px;
+  height: 90px;
+  border-radius: 18px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  font-style: italic;
+
+  margin: auto;
+}
+
+.techcorp-logo {
+  background: linear-gradient(135deg,
+      #1768a5,
+      #2189df);
+}
+
+.agency-logo {
+  background: linear-gradient(135deg,
+      #8c179f,
+      #e21b76);
+}
+
+.studio-logo {
+  background: linear-gradient(135deg,
+      #009688,
+      #45b85a);
+}
+
+fieldset {
+  border: 1px solid #888;
+  padding: 12px 15px 14px;
+}
+
+legend {
+  padding: 0 5px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 95px;
+  row-gap: 7px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 275px 1fr;
+  align-items: center;
+}
+
+.form-row label {
+  white-space: nowrap;
+}
+
+.form-row input {
+  height: 25px;
+  border: 1px solid #777;
+  padding: 2px 5px;
+}
+
+
+.buttons {
+  margin-top: 23px;
+}
+
+button {
+  border: none;
+  color: white;
+  font-size: 17px;
+  padding: 4px 7px;
+  cursor: pointer;
+}
+
+.send {
+  background-color: #155b8f;
+}
+
+.clear {
+  background-color: #d51d45;
+  margin-left: 7px;
+} 
